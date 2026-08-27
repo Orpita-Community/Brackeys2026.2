@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "My project.slnx"
+    "dotnet.defaultSolution": "Brackeys2026.2-2026-08-25-18-45-50.slnx"
 }
