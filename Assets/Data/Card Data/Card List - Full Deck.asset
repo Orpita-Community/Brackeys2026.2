@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dc23c6619883077a0b1a92097e97fb4, type: 3}
+  m_Name: Card List - Full Deck
+  m_EditorClassIdentifier: Assembly-CSharp::CardList_DataSO
+  cardList:
+  - {fileID: 11400000, guid: e61e809c047a9a57acd4a9791444c78d, type: 2}
+  - {fileID: 11400000, guid: 17ccbd5b58e146f27177d86dd5b9fc41, type: 2}
+  - {fileID: 11400000, guid: ee7d8d025fed1f79ca44aba4c8d2533b, type: 2}
+  - {fileID: 11400000, guid: 1785533a62bcd43d82b2b8d50df5da30, type: 2}
+  - {fileID: 11400000, guid: 91255b53c0a9089ba03e0fe95f0db979, type: 2}
+  - {fileID: 11400000, guid: c5233f5f232fed3cd3fbc62766f5c1be, type: 2}
+  - {fileID: 11400000, guid: 4b3b8f5c46c916f287ae16a7dc07b369, type: 2}
+  - {fileID: 11400000, guid: e863d2706eed84bc43e5573c18eafacd, type: 2}
+  - {fileID: 11400000, guid: b32830f1f4b6f53153111038ed3e51fa, type: 2}
+  - {fileID: 11400000, guid: 8693ef986db0d10c0df2cc43f3d1407c, type: 2}
+  - {fileID: 11400000, guid: bc18cb465845801aa298faccf4ae9b0f, type: 2}
+  - {fileID: 11400000, guid: a58375176ee6525947f93c9cb0118224, type: 2}
+  - {fileID: 11400000, guid: 6a1d7ba642cc2c0907fa17e2bbf10b3b, type: 2}
