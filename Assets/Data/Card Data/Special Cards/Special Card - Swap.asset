@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Special Card - Swap
   m_EditorClassIdentifier: Assembly-CSharp::Card_DataSO
   cardName: SWAP
-  cardIcon: {fileID: 0}
+  cardIcon: {fileID: 21300000, guid: f86d0a729bf10b94796c600155625bb7, type: 3}
   cardType: 1
   numberValue: 0
   copiesInDeck: 2

@@ -33,6 +33,7 @@ public class RoundManager : MonoBehaviour, ICardEffectContext
     public event Action<CardOwner> OnRoundEnded;
     public event Action<CardOwner> OnMatchEnded;
     public event Action<bool> OnPlayerInputChanged;
+    public event Action<CardOwner, Card_DataSO> OnCardPlayed;
 
     public float AiThinkDelaySeconds => aiThinkDelaySeconds;
     public ReaperAI ReaperAI => reaperAI;
@@ -193,6 +194,7 @@ public class RoundManager : MonoBehaviour, ICardEffectContext
         if (!CardRules.IsPlayable(card, selectedCard, this, owner)) return;
 
         hand.RemoveCard(card);
+        OnCardPlayed?.Invoke(owner, card);
 
         if (card.cardType == CardType.Number)
         {
