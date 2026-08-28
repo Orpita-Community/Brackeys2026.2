@@ -17,6 +17,9 @@ public class HandUI : MonoBehaviour
     [SerializeField] private float cardSpacing = 90f;
     [SerializeField] private float fanRise = 40f;
 
+    [Header("Composition")]
+    [SerializeField] private float cardScale = 1f;
+
     private RoundManager roundManager;
     private Hand handModel;
     private readonly List<CardView> activeViews = new List<CardView>();
@@ -87,6 +90,7 @@ public class HandUI : MonoBehaviour
         for (int i = 0; i < count; i++)
         {
             CardView view = Instantiate(cardViewPrefab, fanContainer);
+            view.transform.localScale = Vector3.one * cardScale;
             view.SetCardData(cards[i], owner == CardOwner.Player);
             view.SetLayout(ComputeFanPosition(i, count), ComputeFanRotation(i, count));
             view.OnClicked += HandleCardClicked;

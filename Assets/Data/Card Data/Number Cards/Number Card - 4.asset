@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3b920ee70a27e5abb1d4ae4a3635210, type: 3}
   m_Name: Number Card - 4
   m_EditorClassIdentifier: Assembly-CSharp::Card_DataSO
-  cardName: '4'
-  cardIcon: {fileID: 0}
+  cardName: 4
+  cardIcon: {fileID: 21300000, guid: 43cc48d0b983c574b94db0ef2870ef81, type: 3}
   cardType: 0
   numberValue: 4
   copiesInDeck: 8
